@@ -17,6 +17,7 @@ function consume(param1, param2, callback){
   * Create a function named multiply that returns the product of two numbers 
   * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
 */
+
 const add = function (num1, num2){
   return num1 + num2;
 };
@@ -39,7 +40,7 @@ console.log(consume("Mary","Poppins", greeting)); // Hello Mary Poppins, nice to
 
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 
-// Explanation: 
+// Explanation: because nestedfunctions is inside the myfunction is a closure, nestedfunctions is able to use the references inside the myfunction scope
 
 
 const external = "I'm outside the function";
